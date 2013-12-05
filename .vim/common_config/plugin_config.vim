@@ -25,6 +25,13 @@
   Bundle "git://github.com/wgibbs/vim-irblack.git"
   Bundle "git://github.com/wavded/vim-stylus.git"
 
+
+
+" Elixir plugin
+  Bundle "git://github.com/elixir-lang/vim-elixir.git"
+    au BufNewFile,BufRead *.ex set filetype=elixir
+    au BufNewFile,BufRead *.exs set filetype=elixir
+
 " CtrlP - with FuzzyFinder compatible keymaps
   Bundle "git://github.com/kien/ctrlp.vim.git"
     nnoremap <Leader>b :<C-U>CtrlPBuffer<CR>
